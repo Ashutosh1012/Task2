@@ -1,0 +1,189 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.nav{
+    height: 10%;
+    width: 100%;
+    background-color: gray;
+    display: flex;
+    
+}
+    .prot{
+        height: 100%;
+        width: 30%;
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding-top: 1vmax;
+    }
+
+    .navbar{
+        height: 100%;
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0% 10vmax;
+        font-weight: 200;
+        font-size: 10px;
+        color: white;
+    }
+
+    .nav > .navbar h1:hover{
+        text-decoration: underline;
+        color: yellow;
+    }
+
+.page1{
+    height: 90%;
+    width: 100%;
+    display: flex;
+}
+    .page1 > .pageleft{
+        color: gray;
+        padding-top: 5vmax;
+        padding-left: 5vmax;
+        width: 30%;
+        height: 100%;
+        background-color: black;
+    }
+    .page1 > .pageleft > h3{
+        color: white;
+        padding-left: 13vmax;
+        padding-top: 5vmax;
+    }
+    .page1 > .pageleft > h1{
+        color: white;
+        padding-left: 12vmax;
+        padding-top: vmax;
+        
+    }
+    
+    .page1 >  .right > .pageright{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.5);
+        
+    }
+    .page1 >  .right > .pageright > h1{
+        padding-top: 27.2vmax;
+        color: white;
+        padding-left: 1vmax;
+    }
+     .page1 > .right{
+        width: 70%;
+        height: 100%;
+        background-image: url(ashu.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .page1 >  .right > .pageright > h2{
+        color: rgb(241, 241, 158);
+        padding-left: 1vmax;
+    }
+    .page1 >  .right > .pageright > h2:hover{
+        color: rgb(245, 245, 6);
+        padding-left: 1vmax;
+    }
+
+.page2{
+    width: 100%;
+    height: 100%;
+    background-color: gainsboro;
+    display: flex;
+}
+    .page2 > .leftpart1{
+        position: relative;
+        width: 25%;
+        height: 70%;
+        background-color: black;
+        margin-top: 5vmax;
+        margin-left: 15vmax;
+    
+    }
+    .page2 > .leftpart2{
+        position: absolute;
+        width: 25%;
+        height: 70%;
+        margin-left: 18vmax;
+        margin-top: 8vmax;
+        background-image: url(ashu1.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    .page2 > .rightpart{
+        width: 60%;
+        height: 100%;
+        padding-top: 10vmax;
+        padding-left: 10vmax;
+        font-size: small;
+    }
+    .page2 > .rightpart > h1{
+        color: black;
+    }
+    .page2 > .rightpart > h1 > u:hover{
+        color: yellow;
+    }
+    
+.page3{
+    height: 140%;
+    width: 100%;
+    text-align: center;
+    padding-top: 1vmax;
+    background-color: aliceblue;
+}
+    .page3 > h3{
+        padding-left: 5vmax;
+    }
+    
+    .page3 > h1 > .ri-record-circle-line{
+        color: rgb(231, 231, 123);
+        font-size: 50px;
+    }
+    .page3 > h1:hover{
+        color: rgb(218, 218, 38);
+    }
+    .page3 > .page3nav{
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+        padding: 0% 20vmax;
+        font-size: smaller;
+        background-color: aliceblue;
+    }
+    .page3 > .page3nav > .all{
+        color: rgb(218, 218, 38);
+    }
+    .page3 > .page3nav > .graphic:hover{
+        color: rgb(218, 218, 38);
+    }
+    .page3 > .page3nav > .video:hover{
+        color: rgb(218, 218, 38);
+    }
+    .page3 > .page3nav > .web:hover{
+        color: rgb(218, 218, 38);
+    }
+    .page3 > .page3nav > .brand:hover{
+        color: rgb(218, 218, 38);
+    }
+
+   .page3 > .rightpart{
+    transition: 0.2s;
+    padding-top: 5vmax;
+   }
+   .page3 > .rightpart > img:hover{
+        transform: scale(1.2);
+   }
